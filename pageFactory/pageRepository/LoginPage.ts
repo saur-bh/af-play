@@ -1,7 +1,7 @@
 import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { WebActions } from "@lib/WebActions";
 import { objectRepository } from '../objectRepository/objLocator'
-import { testConfig } from '../../testConfig';
+import { testConfig } from 'testConfig';
 
 let webActions: WebActions;
 
@@ -23,6 +23,7 @@ export class LoginPage {
     }
 
     async navigateToURL(): Promise<void> {
+       
         await this.page.goto("/");
     }
 
@@ -37,6 +38,7 @@ export class LoginPage {
     }
 
     async verifyLoginPageTitle(): Promise<void> {
+          await this.page.waitForLoadState('networkidle');
         const title = await this.page.title();
         // Use regex to check if the title matches either "Nutzer" or "Dashboard"
         expect(title).toMatch(/^(Nutzer|Dashboard)$/);

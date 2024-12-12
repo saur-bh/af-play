@@ -7,7 +7,7 @@ config();
 async function globalSetup(): Promise<void> {
     // Get the environment variable for the base URL and environment
     const ENV = process.env.ENV || 'qa'; // Default to 'qa' if not provided
-    const BASE_URL = process.env.BASE_URL; // New variable for base URL
+    const BASE_URL = process.env.BASE_URL|| 'https://dresden.billodev.net/app/auth'; // New variable for base URL
 
     // Validate the environment variable
     if (![`qa`, `prod`, `qaApi`, `prodApi`].includes(ENV)) {
