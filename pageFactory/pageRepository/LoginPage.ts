@@ -1,5 +1,6 @@
 import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { WebActions } from "@lib/WebActions";
+import { objectRepository } from '../objectRepository/objLocator'
 import { testConfig } from '../../testConfig';
 
 let webActions: WebActions;
@@ -16,9 +17,9 @@ export class LoginPage {
         this.page = page;
         this.context = context;
         webActions = new WebActions(this.page, this.context);
-        this.USERNAME_EDITBOX = page.locator('#emailField');
-        this.PASSWORD_EDITBOX = page.locator('input[type=password]');
-        this.LOGIN_BUTTON = page.locator('#loginFormButton');
+        this.USERNAME_EDITBOX = page.locator(objectRepository.loginPage.txtBox_email);
+        this.PASSWORD_EDITBOX = page.locator(objectRepository.loginPage.txtBox_password);
+        this.LOGIN_BUTTON = page.locator(objectRepository.loginPage.btn_login);
     }
 
     async navigateToURL(): Promise<void> {
@@ -35,7 +36,9 @@ export class LoginPage {
         await this.LOGIN_BUTTON.click();
     }
 
-    async verifyProfilePage(): Promise<void> {
-        await expect(this.BOOKS_SEARCH_BOX).toBeVisible();
+    async verifyLoginPageTitle(): Promise<void> {
+        const title = await this.page.title();
+        // Use regex to check if the title matches either "Nutzer" or "Dashboard"
+        expect(title).toMatch(/^(Nutzer|Dashboard)$/);
     }
 }

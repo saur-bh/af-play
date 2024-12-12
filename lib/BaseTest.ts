@@ -33,11 +33,6 @@ const test = baseTest.extend<{
     interactionsPage: async ({ page, context }, use) => {
         await use(new InteractionsPage(page, context));
     },
-    makeAxeBuilder: async ({ page }, use) => {
-        await use(new AxeBuilder({ page })
-            .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
-            .exclude('#commonly-reused-element-with-known-issue'));
-    }
 })
 
 export default test;

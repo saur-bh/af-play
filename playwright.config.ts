@@ -1,12 +1,14 @@
-import { PlaywrightTestConfig, devices } from '@playwright/test';
+import { PlaywrightTestConfig } from '@playwright/test';
 import { testConfig } from './testConfig';
 
 // Get the environment variable for the base URL and environment from command prompt
-const ENV = process.env.ENV;
+let ENV = process.env.ENV;
 
 if (!ENV || ![`qa`, `prod`, `qaApi`, `devApi`].includes(ENV)) {
   console.log(`Please provide a correct environment value after command like "--ENV=qa|dev|qaApi|devApi" ${ENV}`);
   process.exit(1);
+}else{
+  ENV="qa"
 }
 
 const config: PlaywrightTestConfig = {
