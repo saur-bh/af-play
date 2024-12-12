@@ -469,3 +469,30 @@
 {"level":"info","message":"Executing Step : Login to  application"}
 {"level":"info","message":"Executing Step : Verify the title of the page"}
 {"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"SyntaxError: /Users/100rabh/Desktop/aifinyo-playwright/pageFactory/objectRepository/objLocator.ts: Unexpected token (48:2)\n\n\u001b[0m \u001b[90m 46 |\u001b[39m }\u001b[33m;\u001b[39m\n \u001b[90m 47 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m   }\n \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m"}
+{"level":"error","message":"Error: No tests found"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}

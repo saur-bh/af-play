@@ -1,6 +1,6 @@
 import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { WebActions } from "@lib/WebActions";
-import { objectRepository } from '../objectRepository/objLocator'
+import { UiLocators } from '@objects/UiLocators';
 import { testConfig } from 'testConfig';
 
 let webActions: WebActions;
@@ -17,9 +17,9 @@ export class LoginPage {
         this.page = page;
         this.context = context;
         webActions = new WebActions(this.page, this.context);
-        this.USERNAME_EDITBOX = page.locator(objectRepository.loginPage.txtBox_email);
-        this.PASSWORD_EDITBOX = page.locator(objectRepository.loginPage.txtBox_password);
-        this.LOGIN_BUTTON = page.locator(objectRepository.loginPage.btn_login);
+        this.USERNAME_EDITBOX = page.locator(UiLocators.loginPage.txtBox_email);
+        this.PASSWORD_EDITBOX = page.locator(UiLocators.loginPage.txtBox_password);
+        this.LOGIN_BUTTON = page.locator(UiLocators.loginPage.btn_login);
     }
 
     async navigateToURL(): Promise<void> {

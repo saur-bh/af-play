@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:single": "npx playwright test Login.test.ts --project=Chrome",
-    "test:dev":"BASE_URL=https://stagqa.billodev.net/app/auth npx playwright test --grep @dev  --project=Chrome ",
+    "test:dev": "npx playwright test --grep @dev --project=Chrome",
+    "test:qa":"BASE_URL=https://stagqa.billodev.net/app/auth npx playwright test --grep @dev  --project=Chrome ",
+    "test:prod":"BASE_URL=https://prodqa.billomat.net/app/auth npx playwright test --grep @dev  --project=Chrome ",
     "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
     "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
     "test:ui": "npx playwright test --grep @Smoke --ui",
