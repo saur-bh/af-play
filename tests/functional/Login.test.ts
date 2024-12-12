@@ -2,7 +2,7 @@ import test from '@lib/BaseTest';
 
 // We can use Steps like in Cucmber format as shown below
 
-test(`Verify Book Store Login`, { tag: ['@Smoke', '@dev']}, async ({ loginPage }) => {
+test(`Verify AFINIYO DE  Login`, { tag: ['@Smoke', '@dev']}, async ({ loginPage }) => {
     await test.step(`Navigate to Application`, async () => {
         await loginPage.navigateToURL();
     });
