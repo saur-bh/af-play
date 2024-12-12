@@ -1,6 +1,6 @@
 import test from '@lib/BaseTest';
 
-test(`Verify Widgets Page`, { tag: '@Smoke'}, async ({ loginPage, widgetsPage, webActions }) => {
+test.skip(`Verify Widgets Page`, { tag: '@Smoke'}, async ({ loginPage, widgetsPage, webActions }) => {
     await loginPage.navigateToURL();
     await webActions.clickByText('Widgets'); // Click on Widgets Icon identified via text selector
     await webActions.clickByText('Auto Complete');

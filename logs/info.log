@@ -273,3 +273,92 @@
 {"level":"info","message":"Executing Step : Login to  application"}
 {"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
 {"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : timedOut"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : timedOut"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Alerts, Frame & Windows Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Elements Page"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : failed"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Interactions Page"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify the text contents of PDF file."}
+{"level":"info","message":"Test Case Completed : Verify the text contents of PDF file. Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Widgets Page"}
+{"level":"info","message":"Test Case Completed : Verify Elements Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Alerts, Frame & Windows Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Interactions Page Status : interrupted"}
+{"level":"info","message":"Test Case Completed : Verify Widgets Page Status : interrupted"}
+{"level":"error","message":"Error: No tests found"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Book Store Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify Book Store Login Status : passed"}
