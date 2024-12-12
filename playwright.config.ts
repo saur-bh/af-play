@@ -1,16 +1,9 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 import { testConfig } from './testConfig';
 
-// Get the environment variable for the base URL and environment from command prompt
-let ENV = process.env.ENV;
 
-if (!ENV || ![`qa`, `prod`, `qaApi`, `devApi`].includes(ENV)) {
-  console.log(`Please provide a correct environment value after command like "--ENV=qa|dev|qaApi|devApi" ${ENV}`);
-  process.exit(1);
-}else{
-  ENV="qa"
-}
-
+const baseURLFromEnv = process.env.BASE_URL; // Get base URL from environment variable
+const baseURL = baseURLFromEnv || testConfig["ENV"]; // Use BASE_URL if provided, otherwise fallback to testConfig[ENV]
 const config: PlaywrightTestConfig = {
   // Global Setup to run before all tests
   globalSetup: `./global-setup`,
@@ -33,7 +26,7 @@ const config: PlaywrightTestConfig = {
       use: {
         browserName: `chromium`,
         channel: `chrome`,
-        baseURL: testConfig[ENV],
+        baseURL: baseURL,
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -50,7 +43,7 @@ const config: PlaywrightTestConfig = {
       name: `Chromium`,
       use: {
         browserName: `chromium`,
-        baseURL: testConfig[ENV],
+        baseURL: baseURL,
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -67,7 +60,7 @@ const config: PlaywrightTestConfig = {
       name: `Firefox`,
       use: {
         browserName: `firefox`,
-        baseURL: testConfig[ENV],
+        baseURL: baseURL,
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -85,7 +78,7 @@ const config: PlaywrightTestConfig = {
       use: {
         browserName: `chromium`,
         channel: `msedge`,
-        baseURL: testConfig[ENV],
+        baseURL: baseURL,
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -102,7 +95,7 @@ const config: PlaywrightTestConfig = {
       name: `WebKit`,
       use: {
         browserName: `webkit`,
-        baseURL: testConfig[ENV],
+        baseURL: baseURL,
         headless: false,
         viewport: { width: 1500, height: 730 },
         ignoreHTTPSErrors: true,
@@ -118,7 +111,7 @@ const config: PlaywrightTestConfig = {
     {
       name: `API`,
       use: {
-        baseURL: testConfig[ENV]
+        baseURL: baseURL
       }
     }
   ],
