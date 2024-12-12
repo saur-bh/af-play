@@ -2,6 +2,7 @@ import { Page, BrowserContext, Locator, expect } from '@playwright/test';
 import { WebActions } from "@lib/WebActions";
 import { UiLocators } from '@objects/UiLocators';
 import { testConfig } from 'testConfig';
+import { writeFile } from 'fs/promises';
 
 let webActions: WebActions;
 
@@ -35,6 +36,9 @@ export class LoginPage {
         await this.USERNAME_EDITBOX.fill(testConfig.username);
         await this.PASSWORD_EDITBOX.fill(testConfig.password);
         await this.LOGIN_BUTTON.click();
+          // Save the storage state to a file after logging in
+    const storageState = await this.context.storageState();
+    await writeFile('storageState.json', JSON.stringify(storageState));
     }
 
     async verifyLoginPageTitle(): Promise<void> {

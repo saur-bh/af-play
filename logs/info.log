@@ -506,3 +506,59 @@
 {"level":"info","message":"Executing Step : Login to  application"}
 {"level":"info","message":"Executing Step : Verify the title of the page"}
 {"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify Invoice creation with existing client"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Invoice creation with existing client Status : failed"}
+{"level":"info","message":"Test Case Started : Verify Invoice creation with existing client"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Test Case Completed : Verify Invoice creation with existing client Status : failed"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"error","message":"Error: No tests found"}
+{"level":"error","message":"Error: No tests found"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : failed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : passed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify navigation to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Verify navigation to Invoices Page Status : failed"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Test Case Started : Navigate directly to Invoices Page"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Test Case Completed : Navigate directly to Invoices Page Status : failed"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"info","message":"Test Case Started : Verify AFINIYO DE  Login"}
+{"level":"info","message":"Test Case Started : Navigate directly to Invoices Page"}
+{"level":"info","message":"Executing Step : Navigate to Application"}
+{"level":"info","message":"Executing Step : Login to  application"}
+{"level":"info","message":"Executing Step : Verify the title of the page"}
+{"level":"info","message":"Test Case Completed : Verify AFINIYO DE  Login Status : passed"}
+{"level":"info","message":"Test Case Completed : Navigate directly to Invoices Page Status : failed"}
+{"level":"info","message":"Test Case Started : Navigate directly to Invoices Page"}
+{"level":"info","message":"Test Case Completed : Navigate directly to Invoices Page Status : failed"}
