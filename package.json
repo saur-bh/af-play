@@ -1,0 +1,27 @@
+{
+  "name": "playwright-typescript-playwright-test",
+  "version": "1.0.0",
+  "description": "Playwright Framework with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:single": "npx playwright test Login.test.ts --project=Chrome",
+    "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
+    "test:serial": "npx playwright test --grep @Smoke --workers=1 --project=Chrome",
+    "test:ui": "npx playwright test --grep @Smoke --ui",
+    "test:record": "npx playwright codegen",
+    "allureReport": "allure serve"
+  },
+  "author": "Saurabh Verma",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/crypto-js": "^4.2.2",
+    "allure-playwright": "^3.0.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
